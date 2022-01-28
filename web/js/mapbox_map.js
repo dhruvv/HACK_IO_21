@@ -10,7 +10,7 @@ zoom: 11.15
 
 
 async function loadJson(){
-    const response = await fetch('https://owsz3kcw32.execute-api.us-east-1.amazonaws.com/staging/api2/getMapData').then(response => {return(response.json());});
+    const response = await fetch('https://e7vfjkhzye.execute-api.us-east-1.amazonaws.com/default/forestdsapi-staging/api2/getMapData').then(response => {return(response.json());});
     
     
 }
